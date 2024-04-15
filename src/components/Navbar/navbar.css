@@ -1,0 +1,39 @@
+.containerNav {
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.containerNav--ul {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0px 20px;
+}
+
+.containerNav--ul--li {
+	list-style: none;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.containerNav--ul--li:hover {
+	text-decoration: underline;
+}
+
+.containerNav--ul--li.active {
+	color: yellow;
+}
+
+.CartQuantity{
+	font-size: 2rem;
+	text-decoration: none;
+	color: yellow;
+}

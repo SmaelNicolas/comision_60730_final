@@ -1,0 +1,36 @@
+.container--itemDetail {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.itemDetail--title {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.itemDetail--img {
+    width: 50%;
+}
+
+.itemDetail--price {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.itemDetail--stock {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.itemDetail--description {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}

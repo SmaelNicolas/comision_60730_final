@@ -1,0 +1,107 @@
+Firebase es una plataforma integral, creada por Google, que nos ofrece una gran variedad de servicios y herramientas para el desarrollo web y mobile. Nos va a ayudar a nosotros , los desarrolladores, a construir, mejorar y hacer crecer nuestra app.
+
+Algunas de las cosas que podemos hacer:
+1) Base de datos en tiempo real (La que vamos a usar)
+2) Autenticacion de Usuarios
+3) Almacenamiento en la Nube
+4) Hosting
+5) Funciones en la nube
+6) Analytics
+
+Vamos a profundizar un poco sobre la base de datos en tiempo real, que es la que vamos a usar.
+
+1)es una base de datos NoSQL en la nube que se organiza en forma de JSON (JavaScript Object Notation). Osea que los datos se almacenan en forma de pares de clave-valor, lo que proporciona una estructura flexible y escalable para almacenar y recuperar datos.
+
+2)Sincronización en tiempo real:  Cualquier cambio realizado en la base de datos se refleja automáticamente en todos los clientes conectados.
+
+3)Escalabilidad: Puede manejar una gran cantidad de datos y un alto volumen de solicitudes de manera eficiente. Esto la hace adecuada para aplicaciones que esperan un crecimiento rápido y una gran cantidad de usuarios simultáneos.
+
+4)Seguridad: Firebase proporciona controles de seguridad integrados para proteger los datos almacenados . Podemos configurar reglas de seguridad personalizadas para restringir el acceso a los datos basándose en identidades de usuarios autenticados, así como en ciertas condiciones lógicas.
+
+
+ir a google firebase
+Entrar a la consola
+Agregar proyecto
+ingresar nombre
+deshabilitar Google Analytics y Crear Proyecto
+Esperar... y continuar
+volver a la consola y buscar el proyecto recien creado
+entrar al proyecto
+Seleccionar el tipo de App ( WEB)
+Ingresar sobrenombre
+registrar
+
+Ya en el proyecto instalar firebase
+Crear una carpeta de services
+crear archivo firebase.js
+
+volver a firebase y copiar el SDK
+pegarlo en el archivo firebase.js
+
+en Firebase ir a la consola
+Seleccionar Cloud Firestore (Firestore Database)
+Crear Base de datos
+
+id default
+ubicacion (US o Sao Paulo)
+Siguiente
+IMPORTANTE MODO DE PRUEBA
+Crear
+
+Antes de crear coleccion, modificar reglas (AÑO) 
+
+Crear coleccion "productos"
+Para los documentos (id automático)
+copiar 1 documento de cada categoria (RESPETAR NOMBRES)
+guardar documento (Mostrar id y campos - editar)
+Agregar otro documento
+
+Metodos de Firebase
+https://firebase.google.com/docs/firestore/query-data/get-data?hl=es
+
+volver al codigo
+
+obtener la base de datos de la app creada
+
+crear funcion para obtener productos
+hacer una referencia a la coleccion de productos
+obtener una imagen de los documentos de esa coleccion
+una vez obtenidos los documentos , crear un arreglo con la informacion de cada uno y el id del documento, que viene por fuera.
+retornar los datos
+
+
+Modificar la promesa de ItemListContainer por la funcion.
+
+Al navegar al detalle va a dar error porque no encuentra el id
+
+Realizar el obtener 1 solo producto
+
+hacer referencia a la collecion
+hacer referencia a un producto en especifico de esa coleccion
+obtener el doc de esa referencia
+devolver los datos de la "foto" del documento
+
+Modificar la promesa de ItemDetailContainer por la funcion
+
+Crear el obtener productos por categoria (funciona hasta ahora, pero trae todos los productos y luego filtra, debemos traer filtrado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
